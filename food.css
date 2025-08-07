@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #eaf9e7;
+}
+
+.app{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    margin-top: 13%;
+}
+
+header .logo img{
+    width: 120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background: #eaf9e7;
+    z-index: 10000;
+}
+
+nav.navbar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav.navbar a{
+    color: #013237;
+    text-decoration: none;
+}
+
+nav.navbar a:hover{
+    color: #4ca771;
+    transition: color .3s ease;
+}
+
+.right-side-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side-nav input{
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.right-side-nav button{
+    padding: 0.9rem 1.5rem;
+    background: #013237;
+    border: none;
+    color: #eaf9e7;
+    font-size: 15px;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: scale .2s ease;
+}
+
+.right-side-nav button:hover{
+    background: #4ca771;
+    scale: 0.9;
+    border-radius: 1rem;
+}
+
+
+section.home .boxes{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.box{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+
+section.menu h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+
+}
+
+
+.food-items{
+    display: flex;
+    gap: 30px;
+    margin: 100px 0;
+}
+
+.food-items p{
+    margin: 10px 0;
+}
+
+.food-item {
+    background: #4ca771;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: .8rem;
+}
+
+.food-item img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.food-item .about-food{
+    font-size: 14px;
+    color: #eaf9e7;
+}
+
+.food-status{
+    color: #013237;
+    font-size: 17px;
+}
+
+.food-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-info .food-rating{
+    padding: 1px 5px;
+}
+
+.food-item button{
+    padding: 12px 0;
+    border-radius: .5rem;
+    background: #013237;
+    border: none;
+    color: #eaf9e7;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.food-item button:hover{
+    scale: .9;
+}
+
+footer{
+    background: #013237;
+    height: 300px;
+    padding: 0 80px;
+}
+
+footer h3{
+    color: #eaf9e7;
+    font-weight: 500;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #eaf9e7;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.footer-links div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-links div input{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 2rem;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon h3{
+    font-size: 15px;
+}
+
+.footer-icon i{
+    color: #013237;
+    background: #eaf9e7;
+    padding: 10px;
+    border-radius: 2rem;
+    text-align: center;
+}
